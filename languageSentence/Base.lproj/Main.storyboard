@@ -41,11 +41,19 @@
                                     <action selector="Japanese:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eh9-NU-6Xp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="© 2022 Sam Cox. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zS3-yI-60G">
+                                <rect key="frame" x="126" y="789" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="Credits" destination="zS3-yI-60G" id="sEk-S7-msK"/>
                         <outlet property="HelloWorld" destination="BnN-WW-PKe" id="1vJ-Nf-z4z"/>
                     </connections>
                 </viewController>
